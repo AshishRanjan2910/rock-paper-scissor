@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+:root{
+    --text-color: #39FF14;  /* to call it somewhere var(--text-color)*/
+    --text-background: #166d3b;
+    --white-color: #fff; /*for padding, margin, font, etc.*/
+}
 
 * {
     margin: 0;
@@ -13,5 +18,16 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: var(--text-background);
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: var(--text-color);
+
 }
+
 
