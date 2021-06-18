@@ -24,6 +24,10 @@ const gameStart = function(){
     cScore=0;
     pScore=0;
     click_num =0;
+
+    computerScore.innerText = cScore;
+    userScore.innerText = pScore;
+
     computerScore.innerText= cScore;
     userScore.innerText = pScore;
     hands.classList.remove('hidden');
@@ -44,11 +48,11 @@ const gameLogic = function(userChoice, computerChoice){
 
     if((userChoice === 'rock' && computerChoice=== 'scissor') || (userChoice==='paper' && computerChoice ==='rock') || (userChoice==='scissor' && computerChoice==='paper')){
         pScore++;
-        res= 'won';
+        res= 'you won';
     }
     else if((computerChoice === 'rock' && userChoice=== 'scissor') || (computerChoice==='paper' && userChoice ==='rock') || (computerChoice==='scissor' && userChoice==='paper')){
         cScore++;
-        res = 'lose';
+        res = 'you lose';
     }
     else{
         res = 'draw';
@@ -62,7 +66,7 @@ const updateDOM = (userChoice, computerChoice, res) => {
     userScore.innerText = pScore;
     computerChosen.innerHTML = `You choose <strong>${userChoice.toUpperCase()}</strong>`;
     userChosen.innerHTML = `Computer choose <strong>${computerChoice.toUpperCase()}</strong>`;
-    result.innerHTML = `YOU <strong>${res.toUpperCase()}</strong>`;
+    result.innerHTML = `<strong>${res.toUpperCase()}</strong>`;
 
     if(cScore===10 || pScore===10){
         hands.classList.add('hidden');

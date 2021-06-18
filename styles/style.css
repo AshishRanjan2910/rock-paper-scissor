@@ -31,29 +31,29 @@ body{
 }
 
 main {
-    height: 50rem;
-    width: 50rem;
-    border-radius: 3rem;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 1rem;
     background-color: var(--white-color);
     background-image: linear-gradient(315deg, #557c66 0%, rgb(109, 138, 31) 80%);
     /* box-shadow properties <x-axis dist> <y-axis dist> <blur-radius> <blur-spread> color */
     /* box-shadow: 3px 3px 2px #fff; */
     box-shadow:  20px 20px 60px rgb(15, 51, 23, .3),
                 -20px -20px 60px rgb(15, 51, 23, .15);
-    padding: 2.5rem;
+    padding: 1.2rem;
 }
 
 header{
-    height: 11rem;
+    height: 9rem;
     display: flex;
     justify-content: space-between;
-    margin: 0.8rem;
+    margin: 0.3rem;
 }
 
 header h1{
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.3;
 }
 
@@ -62,21 +62,21 @@ header h1:hover{
 }
 
 header p {
-    font-size:1.5rem;
+    font-size:1.3rem;
 }
 
 .hands{
-    height: 15rem;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     margin: 0.3rem;
 }
 
 .hands button{
-    width: 11.5rem;
-    height: 11.5rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
-    font-size: 7rem;
+    font-size: 5rem;
     background-color: var(--text-background);
     color:#557c66 40%, rgb(109, 138, 31, 0.6);
     border: 0;
@@ -98,17 +98,17 @@ header p {
 
 .result{
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .result p{
-    margin: 0.4rem;
-    margin-top: 0.4rem;
+    margin: 0.2rem;
+    margin-top: 0.2rem;
 }
 
 .result button{
-    margin: 10rem 0;
-    padding: 0.8rem 2rem;
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
     background-color: var(--text-color);
     color: var(--white-color);
     width: 65%;
@@ -135,8 +135,8 @@ header p {
     background-color: var(--text-color);
     color: var(--white-color);
     width: 40%;
-    margin: 1.5rem auto;
-    font-size: 1.6rem;
+    margin: 0.8rem auto;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -147,11 +147,11 @@ header p {
 
 .quit button{
     background-color: var(--text-color);
-    height: 4.5rem;
+    height: 3.5rem;
     color: var(--white-color);
     width: 50%;
-    margin: 1.5rem auto;
-    font-size: 2rem;
+    margin: 1rem auto;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
