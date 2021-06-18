@@ -69,9 +69,9 @@ const updateDOM = (userChoice, computerChoice, res) => {
         gameResultContainer.classList.add('hidden');
         verdict.classList.remove('hidden');
         if(cScore<pScore){
-            verdict.innerHTML = `<strong>VICTORY:)</strong>`;
+            verdict.innerHTML = `<strong>VICTORY🥳</strong>`;
         } else{
-            verdict.innerHTML = `<strong>DEFEAT:/</strong>`;
+            verdict.innerHTML = `<strong>DEFEAT👾</strong>`;
         }
     }
     else{
