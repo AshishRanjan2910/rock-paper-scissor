@@ -19,7 +19,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--text-background);
-    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    background-image: linear-gradient(147deg, #134428 0%, rgb(51, 133, 78) 74%);
 
     display: flex;
     justify-content: center;
@@ -28,6 +28,18 @@ body{
     width: 100vw;
     color: var(--text-color);
 
+}
+
+main {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 3rem;
+    background-color: var(--white-color);
+    background-image: linear-gradient(315deg, #557c66 0%, rgb(109, 138, 31) 80%);
+    /* box-shadow properties <x-axis dist> <y-axis dist> <blur-radius> <blur-spread> color */
+    /* box-shadow: 3px 3px 2px #fff; */
+    box-shadow:  20px 20px 60px rgb(15, 51, 23, .3),
+                -20px -20px 60px rgb(15, 51, 23, .15);
 }
 
 
