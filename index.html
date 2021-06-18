@@ -26,28 +26,28 @@
                 <p><strong>User: </strong> <span id="user-scr">0</span></p>
             </div>
         </header>
-        <section class="hands">
-            <button>
+        <section class="hands hidden">
+            <button onclick="check('rock')">
                 <i class="far fa-hand-rock"></i>
             </button>
-            <button>
+            <button onclick="check('paper')">
                 <i class="far fa-hand-paper"></i>
             </button>
-            <button>
+            <button onclick="check('scissor')">
                 <i class="far fa-hand-scissors"></i>
             </button>
         </section>
         <section class = "result">
             <div class="game-start" id = "game-start">
-                <button id="game-start">Start Game</button> 
+                <button id="btn-game-start">Start Game</button> 
             </div>
+            <div class="verdict hidden" id = "verdict"></div>
             <div class="game-result hidden" id = "game-result">
-                <p id = "computer-choice">Computer Choose Paper</p>
-                <p id = "user-choice">You Choose Rock</p>
-                <div id = "result" class="result-message">
-                    You Lose
-                </div>
+                <p id = "computer-choice"></p>
+                <p id = "user-choice"></p>
+                <div id = "result" class="result-message"></div>
             </div>
+            <div class="quit hidden" id='quit'><button id="btn-quit">New Game</button></div>
         </section>
     </main>
 

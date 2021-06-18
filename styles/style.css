@@ -69,7 +69,7 @@ header p {
     height: 15rem;
     display: flex;
     justify-content: space-between;
-    margin: 0.8rem;
+    margin: 0.3rem;
 }
 
 .hands button{
@@ -92,7 +92,7 @@ header p {
 
 .hands button:hover:active{
     -webkit-transform: translateZ(1);
-    transform: scale3d(1.3, 1.3, 1.3);
+    transform: scale3d(1.1, 1.1, 1.1);
     color: aqua;
 }
 
@@ -107,14 +107,17 @@ header p {
 }
 
 .result button{
+    margin: 10rem 0;
     padding: 0.8rem 2rem;
     background-color: var(--text-color);
     color: var(--white-color);
-    width: 50%;
-    font-size: 1.3rem;
+    width: 65%;
+    height: 10rem;
+    border-radius: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 
 .result button:hover{
@@ -129,13 +132,45 @@ header p {
 }
 
 .result-message{
-    padding: 0.8rem 2rem;
     background-color: var(--text-color);
     color: var(--white-color);
-    width: 50%;
+    width: 40%;
     margin: 1.5rem auto;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+.result-message:hover{
+    color: #39FF14;
+    background-color: rgb(12, 20, 20);
+}
+
+.quit button{
+    background-color: var(--text-color);
+    height: 4.5rem;
+    color: var(--white-color);
+    width: 50%;
+    margin: 1.5rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.verdict{
+    background-color: var(--text-color);
+    color: var(--white-color);
+    width: 60%;
+    height: 10rem;
+    margin: 3rem auto;
+    padding: 2rem 1.5rem;
+    border-radius: 4rem;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.verdict:hover{
+    color: #39FF14;
+    background-color: rgb(12, 20, 20);
 }
 
 .hidden{
