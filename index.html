@@ -26,16 +26,27 @@
                 <p><strong>User: </strong> <span id="user-scr">0</span></p>
             </div>
         </header>
-        <section>
-            <button></button>
-            <button></button>
-            <button></button>
+        <section class="hands">
+            <button>
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button>
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button>
+                <i class="far fa-hand-scissors"></i>
+            </button>
         </section>
-        <section>
-            <p></p>
-            <p></p>
-            <div>
-
+        <section class = "result">
+            <div class="game-start" id = "game-start">
+                <button id="game-start">Start Game</button> 
+            </div>
+            <div class="game-result hidden" id = "game-result">
+                <p id = "computer-choice">Computer Choose Paper</p>
+                <p id = "user-choice">You Choose Rock</p>
+                <div id = "result" class="result-message">
+                    You Lose
+                </div>
             </div>
         </section>
     </main>
