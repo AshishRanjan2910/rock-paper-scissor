@@ -6,7 +6,7 @@
     --white-color: #fff; /*for padding, margin, font, etc.*/
 }
 
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -158,10 +158,10 @@ header p {
 .verdict{
     background-color: var(--text-color);
     color: var(--white-color);
-    width: 60%;
+    width: 75%;
     height: 10rem;
     margin: 3rem auto;
-    padding: 2.2rem 1.5rem;
+    padding: 3rem 1.5rem;
     border-radius: 4rem;
     align-items: center;
     font-size: 3rem;
@@ -176,4 +176,6 @@ header p {
 .hidden{
     display: none;
 }
+
+
 
