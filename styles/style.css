@@ -135,7 +135,7 @@ header p {
 }
 
 .result-message{
-    background-color: orangered;
+    background-color: var(--text-color);
     color: var(--white-color);
     width: 40%;
     margin: 0.8rem auto;
